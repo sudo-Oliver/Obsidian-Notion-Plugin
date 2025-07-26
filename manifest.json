@@ -1,0 +1,11 @@
+{
+	"id": "obsidian-slash-menu",
+	"name": "Advanced Slash Menu with Graph Navigation",
+	"version": "1.0.0",
+	"minAppVersion": "0.15.0",
+	"description": "Notion-like slash commands with semantic graph navigation for Obsidian",
+	"author": "Oliver Quick",
+	"authorUrl": "https://github.com/sudo-Oliver",
+	"main": "main.js",
+	"isDesktopOnly": false
+}

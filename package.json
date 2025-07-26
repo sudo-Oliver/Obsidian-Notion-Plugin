@@ -1,0 +1,18 @@
+{
+  "name": "obsidian-slash-menu",
+  "version": "1.0.0",
+  "description": "Notion-like slash commands with graph navigation",
+  "main": "main.js",
+  "scripts": {
+    "dev": "esbuild main.ts --bundle --external:obsidian --outdir=dist --target=es2018 --format=cjs --sourcemap --watch",
+    "build": "esbuild main.ts --bundle --external:obsidian --outdir=dist --target=es2018 --format=cjs && cp manifest.json dist/ && cp styles.css dist/",
+    "build-debug": "esbuild debug.ts --bundle --external:obsidian --outfile=dist/main.js --target=es2018 --format=cjs && cp manifest.json dist/ && cp styles.css dist/"
+  },
+  "devDependencies": {
+    "@types/node": "^16.11.6",
+    "esbuild": "0.17.3",
+    "obsidian": "latest",
+    "tslib": "2.4.0",
+    "typescript": "4.7.4"
+  }
+}
