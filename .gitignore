@@ -1,0 +1,25 @@
+# Dependencies
+node_modules/
+package-lock.json
+
+# Build outputs
+dist/
+main.js
+
+# IDE files
+.vscode/
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Plugin development files
+examples/
+Obsidian-Notion-Plugin/
+
+# Documentation drafts
+*.md.backup
+*_TEMP.md
+debug.*
+*.old
